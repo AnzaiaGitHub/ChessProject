@@ -17,9 +17,13 @@ body {
   gap: 0;
   border: 2px solid #333;
 }
+.game-board-row {
+  display: flex;
+  flex-direction: row;
+}
 
 .square {
-  width: 60px;
+  min-width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
