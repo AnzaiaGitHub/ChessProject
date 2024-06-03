@@ -33,13 +33,15 @@ body {
 }
 
 .square.white {
-  background-color: #fff;
+  background-color: #f3ebd2;
 }
 
 .square.black {
-  background-color: #769656;
+  background-color: #446ec8;
 }
 .square.selected {
-  border: 5px solid gray;
-  filter: sepia();
+  border: 5px solid #444488;
+}
+.square.available {
+  border: 3px dashed rgb(195, 122, 57);
 }

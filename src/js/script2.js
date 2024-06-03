@@ -1,5 +1,9 @@
 let game;
 document.addEventListener('DOMContentLoaded', () => {
-  const chessboard = document.getElementById('chessboard');
- game = new Game(chessboard);
+  const screens = {
+    canvas: document.getElementById('chessboard'),
+    gameMoves: document.getElementById('gameMoves'),
+    turn:document.getElementById('turn') 
+  }
+  game = new Game(screens);
 });
